@@ -43,7 +43,7 @@ Future<void> onUserLogin() async {
     ),
     notificationConfig: ZegoCallInvitationNotificationConfig(
       androidNotificationConfig: ZegoCallAndroidNotificationConfig(
-        showFullScreen: true,
+        showOnFullScreen: true,
         fullScreenBackgroundAssetURL: 'assets/image/call.png',
         callChannel: ZegoCallAndroidNotificationChannelConfig(
           channelID: "ZegoUIKit",

@@ -29,8 +29,8 @@ Future<void> logout() async {
 Future<void> onUserLogin() async {
   /// 4/5. initialized ZegoUIKitPrebuiltCallInvitationService when account is logged in or re-logged in
   await ZegoUIKitPrebuiltCallInvitationService().init(
-    appID: yourAppID /*input your AppID*/,
-    appSign: yourAppSign /*input your AppSign*/,
+    appID: 952865635 /*input your AppID*/,
+    appSign: 3be61c597fafab34fcccf267e4ac67c742921140aa0259b52867c65998d4f253 /*input your AppSign*/,
     userID: currentUser.id,
     userName: currentUser.name,
     plugins: [
